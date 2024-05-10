@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <title>BGG Redesign</title>
+    
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Koulen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="main-nav"> 
+        <svg width="204" height="24" viewBox="0 0 204 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.125 23H0.390625C0.307292 23 0.265625 22.9479 0.265625 22.8438L0.328125 0.859375C0.328125 0.776042 0.369792 0.734375 0.453125 0.734375H6.60938C7.80729 0.734375 8.89583 1.02604 9.875 1.60938C10.8333 2.19271 11.5885 2.96875 12.1406 3.9375C12.6927 4.89583 12.9688 5.9375 12.9688 7.0625C12.9688 7.97917 12.7604 8.83333 12.3438 9.625C11.9271 10.4167 11.4323 11.0573 10.8594 11.5469C11.474 12.1615 11.9531 12.875 12.2969 13.6875C12.6406 14.5 12.8125 15.3542 12.8125 16.25C12.8125 17.4896 12.5156 18.6198 11.9219 19.6406C11.3177 20.6615 10.5104 21.4792 9.5 22.0938C8.48958 22.6979 7.36458 23 6.125 23ZM6.60938 4.53125H4.17188V9.5625H6.60938C7.34896 9.5625 7.94792 9.30208 8.40625 8.78125C8.86458 8.25 9.09375 7.67708 9.09375 7.0625C9.09375 6.38542 8.84896 5.79688 8.35938 5.29688C7.86979 4.78646 7.28646 4.53125 6.60938 4.53125ZM6.125 13.4375H4.17188L4.14062 19.0938H6.125C6.89583 19.0938 7.55729 18.8125 8.10938 18.25C8.66146 17.6875 8.9375 17.0208 8.9375 16.25C8.9375 15.4792 8.66146 14.8177 8.10938 14.2656C7.55729 13.7135 6.89583 13.4375 6.125 13.4375ZM21.0312 23.3125C19.8958 23.3125 18.849 23.0208 17.8906 22.4375C16.9427 21.8542 16.1771 21.0781 15.5938 20.1094C15.0208 19.1302 14.7344 18.0573 14.7344 16.8906L14.7656 6.75C14.7656 5.5625 15.0521 4.49479 15.625 3.54688C16.1875 2.58854 16.9479 1.82292 17.9062 1.25C18.8646 0.666667 19.9062 0.375 21.0312 0.375C22.1979 0.375 23.2448 0.661458 24.1719 1.23438C25.1094 1.80729 25.8594 2.57812 26.4219 3.54688C26.9948 4.50521 27.2812 5.57292 27.2812 6.75L27.3125 16.8906C27.3125 18.0573 27.0312 19.125 26.4688 20.0938C25.8958 21.0729 25.1354 21.8542 24.1875 22.4375C23.2396 23.0208 22.1875 23.3125 21.0312 23.3125ZM21.0312 19.4531C21.6771 19.4531 22.2396 19.1927 22.7188 18.6719C23.1979 18.1406 23.4375 17.5469 23.4375 16.8906L23.4062 6.75C23.4062 6.04167 23.1823 5.44271 22.7344 4.95312C22.2865 4.46354 21.7188 4.21875 21.0312 4.21875C20.375 4.21875 19.8125 4.45833 19.3438 4.9375C18.875 5.41667 18.6406 6.02083 18.6406 6.75V16.8906C18.6406 17.5885 18.875 18.1927 19.3438 18.7031C19.8125 19.2031 20.375 19.4531 21.0312 19.4531ZM28 22.8438L31.9688 0.859375C31.9896 0.776042 32.0417 0.734375 32.125 0.734375H36.7656C36.849 0.734375 36.901 0.776042 36.9219 0.859375L40.7344 22.8438C40.7448 22.9479 40.7031 23 40.6094 23H37.0625C36.9583 23 36.901 22.9479 36.8906 22.8438L36.5469 20.5H32.1875L31.8438 22.8438C31.8333 22.9479 31.7812 23 31.6875 23H28.125C28.0417 23 28 22.9479 28 22.8438ZM34.2656 8.09375L32.8281 17.0781H35.9062L34.5938 8.09375L34.4062 6.90625L34.2656 8.09375ZM46.4844 23H42.8594C42.776 23 42.7344 22.9479 42.7344 22.8438L42.7969 0.859375C42.7969 0.776042 42.8385 0.734375 42.9219 0.734375H49.3906C50.5469 0.734375 51.6094 1.01562 52.5781 1.57812C53.5469 2.14062 54.3177 2.89583 54.8906 3.84375C55.474 4.79167 55.7656 5.86458 55.7656 7.0625C55.7656 7.84375 55.6458 8.55208 55.4062 9.1875C55.1667 9.82292 54.8854 10.3594 54.5625 10.7969C54.25 11.2344 53.9635 11.5573 53.7031 11.7656C54.8594 13.0469 55.4375 14.5521 55.4375 16.2812L55.4688 22.8438C55.4688 22.9479 55.4167 23 55.3125 23H51.6875C51.6042 23 51.5625 22.9688 51.5625 22.9062V16.2812C51.5625 15.5104 51.2917 14.8438 50.75 14.2812C50.2083 13.7188 49.5417 13.4375 48.75 13.4375H46.6406L46.6094 22.8438C46.6094 22.9479 46.5677 23 46.4844 23ZM49.3906 4.5625H46.6406V9.59375H49.3906C50.0469 9.59375 50.6302 9.34896 51.1406 8.85938C51.6615 8.36979 51.9219 7.77083 51.9219 7.0625C51.9219 6.38542 51.6719 5.80208 51.1719 5.3125C50.6719 4.8125 50.0781 4.5625 49.3906 4.5625ZM64.0625 22.9688L58.3281 23C58.224 23 58.1719 22.9479 58.1719 22.8438L58.2344 0.859375C58.2344 0.776042 58.276 0.734375 58.3594 0.734375L64.3438 0.703125C65.5312 0.671875 66.6042 0.942708 67.5625 1.51562C68.5312 2.08854 69.3021 2.86458 69.875 3.84375C70.4583 4.8125 70.75 5.88542 70.75 7.0625V16.25C70.75 17.4792 70.4531 18.6042 69.8594 19.625C69.2552 20.6354 68.4531 21.4427 67.4531 22.0469C66.4531 22.6406 65.3229 22.9479 64.0625 22.9688ZM64.3438 4.53125L62.1094 4.5625L62.0781 19.0625H64.0625C64.8542 19.0625 65.5208 18.7865 66.0625 18.2344C66.6042 17.6823 66.875 17.0208 66.875 16.25V7.03125C66.875 6.35417 66.625 5.76562 66.125 5.26562C65.625 4.75521 65.0312 4.51042 64.3438 4.53125ZM87.4375 23.3125C86.2812 23.3125 85.2396 23.026 84.3125 22.4531C83.375 21.8802 82.6198 21.1094 82.0469 20.1406C81.4844 19.1719 81.2031 18.0885 81.2031 16.8906V6.75C81.2031 5.58333 81.4896 4.52083 82.0625 3.5625C82.625 2.59375 83.3802 1.82292 84.3281 1.25C85.276 0.666667 86.3125 0.375 87.4375 0.375C88.6146 0.375 89.6771 0.65625 90.625 1.21875C91.5729 1.79167 92.3229 2.55729 92.875 3.51562C93.4375 4.47396 93.7188 5.55208 93.7188 6.75V8.21875C93.7188 8.30208 93.6667 8.34375 93.5625 8.34375H89.9688C89.8854 8.34375 89.8438 8.30208 89.8438 8.21875V7C89.8438 6.1875 89.6146 5.51562 89.1562 4.98438C88.6979 4.45312 88.125 4.1875 87.4375 4.1875C86.8229 4.1875 86.276 4.44271 85.7969 4.95312C85.3177 5.46354 85.0781 6.0625 85.0781 6.75V16.8906C85.0781 17.5885 85.3125 18.1927 85.7812 18.7031C86.25 19.2031 86.8021 19.4531 87.4375 19.4531C88.125 19.4531 88.6979 19.2083 89.1562 18.7188C89.6146 18.2188 89.8438 17.6094 89.8438 16.8906V15.3125H87.6094C87.4948 15.3125 87.4375 15.2604 87.4375 15.1562V11.5781C87.4375 11.474 87.4948 11.4219 87.6094 11.4219H93.5938C93.6771 11.4219 93.7188 11.474 93.7188 11.5781V16.8906C93.7188 18.0885 93.4375 19.1719 92.875 20.1406C92.3021 21.1094 91.5469 21.8802 90.6094 22.4531C89.6719 23.026 88.6146 23.3125 87.4375 23.3125ZM94.9062 22.8438L98.875 0.859375C98.8958 0.776042 98.9479 0.734375 99.0312 0.734375H103.672C103.755 0.734375 103.807 0.776042 103.828 0.859375L107.641 22.8438C107.651 22.9479 107.609 23 107.516 23H103.969C103.865 23 103.807 22.9479 103.797 22.8438L103.453 20.5H99.0938L98.75 22.8438C98.7396 22.9479 98.6875 23 98.5938 23H95.0312C94.9479 23 94.9062 22.9479 94.9062 22.8438ZM101.172 8.09375L99.7344 17.0781H102.812L101.5 8.09375L101.312 6.90625L101.172 8.09375ZM113.391 23H109.766C109.682 23 109.641 22.9479 109.641 22.8438L109.703 0.859375C109.703 0.776042 109.745 0.734375 109.828 0.734375H113.734C113.818 0.734375 113.891 0.776042 113.953 0.859375L116.875 5.07812L119.781 0.859375C119.844 0.776042 119.922 0.734375 120.016 0.734375H123.938C124.031 0.734375 124.078 0.776042 124.078 0.859375L124.141 22.8438C124.141 22.9479 124.099 23 124.016 23H120.391C120.307 23 120.266 22.9479 120.266 22.8438L120.234 6.51562L116.875 11.3906L113.547 6.51562L113.516 22.8438C113.516 22.9479 113.474 23 113.391 23ZM137.297 23H126.953C126.87 23 126.828 22.9479 126.828 22.8438L126.859 0.859375C126.859 0.776042 126.901 0.734375 126.984 0.734375H137.266C137.349 0.734375 137.391 0.786458 137.391 0.890625V4.46875C137.391 4.55208 137.349 4.59375 137.266 4.59375H130.703V9.59375H137.266C137.349 9.59375 137.391 9.63542 137.391 9.71875L137.422 13.3438C137.422 13.4271 137.38 13.4688 137.297 13.4688H130.703V19.0625H137.297C137.38 19.0625 137.422 19.1146 137.422 19.2188V22.875C137.422 22.9583 137.38 23 137.297 23ZM154.438 23.3125C153.281 23.3125 152.24 23.026 151.312 22.4531C150.375 21.8802 149.62 21.1094 149.047 20.1406C148.484 19.1719 148.203 18.0885 148.203 16.8906V6.75C148.203 5.58333 148.49 4.52083 149.062 3.5625C149.625 2.59375 150.38 1.82292 151.328 1.25C152.276 0.666667 153.312 0.375 154.438 0.375C155.615 0.375 156.677 0.65625 157.625 1.21875C158.573 1.79167 159.323 2.55729 159.875 3.51562C160.438 4.47396 160.719 5.55208 160.719 6.75V8.21875C160.719 8.30208 160.667 8.34375 160.562 8.34375H156.969C156.885 8.34375 156.844 8.30208 156.844 8.21875V7C156.844 6.1875 156.615 5.51562 156.156 4.98438C155.698 4.45312 155.125 4.1875 154.438 4.1875C153.823 4.1875 153.276 4.44271 152.797 4.95312C152.318 5.46354 152.078 6.0625 152.078 6.75V16.8906C152.078 17.5885 152.312 18.1927 152.781 18.7031C153.25 19.2031 153.802 19.4531 154.438 19.4531C155.125 19.4531 155.698 19.2083 156.156 18.7188C156.615 18.2188 156.844 17.6094 156.844 16.8906V15.3125H154.609C154.495 15.3125 154.438 15.2604 154.438 15.1562V11.5781C154.438 11.474 154.495 11.4219 154.609 11.4219H160.594C160.677 11.4219 160.719 11.474 160.719 11.5781V16.8906C160.719 18.0885 160.438 19.1719 159.875 20.1406C159.302 21.1094 158.547 21.8802 157.609 22.4531C156.672 23.026 155.615 23.3125 154.438 23.3125ZM173.453 23H163.109C163.026 23 162.984 22.9479 162.984 22.8438L163.016 0.859375C163.016 0.776042 163.057 0.734375 163.141 0.734375H173.422C173.505 0.734375 173.547 0.786458 173.547 0.890625V4.46875C173.547 4.55208 173.505 4.59375 173.422 4.59375H166.859V9.59375H173.422C173.505 9.59375 173.547 9.63542 173.547 9.71875L173.578 13.3438C173.578 13.4271 173.536 13.4688 173.453 13.4688H166.859V19.0625H173.453C173.536 19.0625 173.578 19.1146 173.578 19.2188V22.875C173.578 22.9583 173.536 23 173.453 23ZM186.891 23H176.547C176.464 23 176.422 22.9479 176.422 22.8438L176.453 0.859375C176.453 0.776042 176.495 0.734375 176.578 0.734375H186.859C186.943 0.734375 186.984 0.786458 186.984 0.890625V4.46875C186.984 4.55208 186.943 4.59375 186.859 4.59375H180.297V9.59375H186.859C186.943 9.59375 186.984 9.63542 186.984 9.71875L187.016 13.3438C187.016 13.4271 186.974 13.4688 186.891 13.4688H180.297V19.0625H186.891C186.974 19.0625 187.016 19.1146 187.016 19.2188V22.875C187.016 22.9583 186.974 23 186.891 23ZM193.609 23H189.984C189.901 23 189.859 22.9479 189.859 22.8438L189.922 0.890625C189.922 0.786458 189.964 0.734375 190.047 0.734375H193.641C193.724 0.734375 193.766 0.786458 193.766 0.890625V8.46875L198.781 0.859375C198.865 0.776042 198.943 0.734375 199.016 0.734375H202.688C202.781 0.734375 202.802 0.776042 202.75 0.859375L197.219 9.6875L203.422 22.875C203.474 22.9583 203.422 23 203.266 23H199.359C199.255 23 199.193 22.9583 199.172 22.875L194.844 13.4688L193.734 15.2188V22.8438C193.734 22.9479 193.693 23 193.609 23Z" fill="#DA9B1D"/>
+        </svg>
+        <ul>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Ranks</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">My collection</a></li>
+            <li><a href="#">Marketplace</a></li>
+        </ul>
+        <div class="search-bar">
+            <img src="./assets/images/icons/search.svg">
+            <input type="text" id="search" name="search" placeholder="search for games...">
+
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Let's play board games.</h1>
+            <h3>Join the largest board games community. Discover games, rate them and build your collection. For free.</h3>
+            <button>See more games</button>
+        </div>
+        <img alt="board games illustration" src="./assets/images/hero-graphics.svg">
+    </section>
+    <section class="news">
+        <h2>News</h2>
+        <hr \>
+        <div class="news-list">
+            <div class="news-video-list">
+                <div class="news-video main-vid">
+                   
+                    <img src="./assets/images/video-thumbs/video-main.png">
+                    <h4>TOP 5 games to introduce to your non-geek friends</h3>
+                </div>
+                <div class="secondary-vids">
+                    <div class="news-video sec-vid">
+                        
+                        <img src="./assets/images/video-thumbs/video-second1.png">
+                        <h5>Why we love CATAN</h3>
+                    </div>
+                    <div class="news-video third-vid">
+                        
+                        <img src="./assets/images/video-thumbs/video-second2.png">
+                        <h5>Concordia - gameplay</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="news-articles">
+                <div class="news-item">
+                    <img src="./assets/images/video-thumbs/TM-video-thumb.png">
+                    <h5>Games that every “Terraforming Mars” lover should play</h4>
+                </div>
+                <div class="news-item">
+                    <img src="./assets/images/video-thumbs/fantastic-univ-thumb.png">
+                    <h5>First impressions on the “Fantastic universes”</h4>
+                </div>
+                <div class="news-item">
+                    <img src="./assets/images/video-thumbs/kid-thumb.png">
+                    <h5>What to play with your kid? Our top recommendations</h4>
+                </div>
+                <div class="news-item">
+                    <img src="./assets/images/video-thumbs/dragon-thumb.png">
+                    <h5>Best gaming equipment that will make your playing easier</h4>
+                </div>
+            </div>
+
+        </div>
+        <button>See more news</button>
+    </section>
+    <section class="hotness">
+        <h2>the hotness</h2>
+        <div class="hot navigation">
+            <h4 class="nav-item">Trending now</h4>
+            <h4 class="nav-item">TOP 100 BGG</h4>
+            <h4 class="nav-item clicked">TOP 100 Community</h4>
+        </div>
+        <hr \>
+        <div id="top-community" class="top-list">
+            <div class="top-item">
+                <i class="rating">1</i>
+                <img src="./assets/images/box-pics/Wishland 1.png">
+                <h4>Wishland</h4>
+            </div>
+            <div class="top-item">
+                <i class="rating">2</i>
+                <img src="./assets/images/box-pics/ark nova 1.png">
+                <h4>Ark Nova</h4>
+            </div>
+            <div class="top-item">
+                <i class="rating">3</i>
+                <img src="./assets/images/box-pics/Brass 1.png">
+                <h4>Brass: Birmingham</h4>
+            </div>
+            <div class="top-item">
+                <i class="rating">4</i>
+                <img src="./assets/images/box-pics/earth 1.png">
+                <h4>Earth</h4>
+            </div>
+            <div class="top-item">
+                <i class="rating">5</i>
+                <img src="./assets/images/box-pics/frosthaven 1.png">
+                <h4>Frosthaven</h4>
+            </div>
+        </div>
+        <button>See more games</button>
+    </section>
+    <section class="reviews">
+        <h2>Reviews</h2>
+        <div class="navigation">
+            <h4 class="nav-item clicked">Newest</h4>
+            <h4 class="nav-item">Popular</h4>
+            <h4 class="nav-item">Community</h4>
+        </div>
+        <hr \>
+        <div class="user-reviews">
+            <div class="review-item">
+                <img src="./assets/images/terraforming mars ares 1.png">
+                <h4>Terraforming Mars: Ares expedition</h4>
+                <div class="review-user-rating">
+                    <img class="user-pic" src="./assets/images/user-pics/josh-green.png">
+                    <div class="user-rating-details">
+                        <h5>Josh Green</h5>
+                        <div class="star-rating">
+                            <h3>7</h3>
+                            <svg width="241" height="25" viewBox="0 0 241 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.7276 0.646484L15.4218 8.93828H24.1403L17.0869 14.0629L19.781 22.3547L12.7276 17.2301L5.67418 22.3547L8.36834 14.0629L1.31492 8.93828H10.0334L12.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M36.7276 0.646484L39.4218 8.93828H48.1403L41.0869 14.0629L43.781 22.3547L36.7276 17.2301L29.6742 22.3547L32.3683 14.0629L25.3149 8.93828H34.0334L36.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M60.7276 0.646484L63.4218 8.93828H72.1403L65.0869 14.0629L67.781 22.3547L60.7276 17.2301L53.6742 22.3547L56.3683 14.0629L49.3149 8.93828H58.0334L60.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M84.7276 0.646484L87.4218 8.93828H96.1403L89.0869 14.0629L91.781 22.3547L84.7276 17.2301L77.6742 22.3547L80.3683 14.0629L73.3149 8.93828H82.0334L84.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M108.728 0.646484L111.422 8.93828H120.14L113.087 14.0629L115.781 22.3547L108.728 17.2301L101.674 22.3547L104.368 14.0629L97.3149 8.93828H106.033L108.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M132.728 0.646484L135.422 8.93828H144.14L137.087 14.0629L139.781 22.3547L132.728 17.2301L125.674 22.3547L128.368 14.0629L121.315 8.93828H130.033L132.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M156.728 0.646484L159.422 8.93828H168.14L161.087 14.0629L163.781 22.3547L156.728 17.2301L149.674 22.3547L152.368 14.0629L145.315 8.93828H154.033L156.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M180.728 0.646484L183.422 8.93828H192.14L185.087 14.0629L187.781 22.3547L180.728 17.2301L173.674 22.3547L176.368 14.0629L169.315 8.93828H178.033L180.728 0.646484Z" fill="#D9D9D9"/>
+                                <path d="M204.728 0.646484L207.422 8.93828H216.14L209.087 14.0629L211.781 22.3547L204.728 17.2301L197.674 22.3547L200.368 14.0629L193.315 8.93828H202.033L204.728 0.646484Z" fill="#D9D9D9"/>
+                                <path d="M228.728 0.646484L231.422 8.93828H240.14L233.087 14.0629L235.781 22.3547L228.728 17.2301L221.674 22.3547L224.368 14.0629L217.315 8.93828H226.033L228.728 0.646484Z" fill="#D9D9D9"/>
+                                </svg>
+                        </div>
+                    </div>
+                </div>
+                <p class="user-rating-comment">I was a bit intrigued when I heard about how Ares Expedition was going to be a Terraforming Mars-lite - even moreso when I heard it was going to incorporate an action selection mechanic along the lines of Race for the Galaxy. I did not like Terraforming Mars - I felt it was fiddly, loose, and far too long for what it is - however I love Race for the Galaxy which is probably the single game I've played the most of. Unfortunately I've since gotten rid of Race because I've found it too difficult to teach in person, and I've been craving an RftG-lite ever since...</p>
+                <p class="read-more">Read more >></p>
+            </div>
+            <div class="review-item">
+                <img src="./assets/images/scythe 1.png">
+                <h4>Scythe</h4>
+                <div class="review-user-rating">
+                    <img class="user-pic" src="./assets/images/user-pics/ann-h.png">
+                    <div class="user-rating-details">
+                        <h5>Anna Hunczak</h5>
+                        <div class="star-rating">
+                            <h3>8</h3>
+                            <svg width="241" height="25" viewBox="0 0 241 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.7276 0.646484L15.4218 8.93828H24.1403L17.0869 14.0629L19.781 22.3547L12.7276 17.2301L5.67418 22.3547L8.36834 14.0629L1.31492 8.93828H10.0334L12.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M36.7276 0.646484L39.4218 8.93828H48.1403L41.0869 14.0629L43.781 22.3547L36.7276 17.2301L29.6742 22.3547L32.3683 14.0629L25.3149 8.93828H34.0334L36.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M60.7276 0.646484L63.4218 8.93828H72.1403L65.0869 14.0629L67.781 22.3547L60.7276 17.2301L53.6742 22.3547L56.3683 14.0629L49.3149 8.93828H58.0334L60.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M84.7276 0.646484L87.4218 8.93828H96.1403L89.0869 14.0629L91.781 22.3547L84.7276 17.2301L77.6742 22.3547L80.3683 14.0629L73.3149 8.93828H82.0334L84.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M108.728 0.646484L111.422 8.93828H120.14L113.087 14.0629L115.781 22.3547L108.728 17.2301L101.674 22.3547L104.368 14.0629L97.3149 8.93828H106.033L108.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M132.728 0.646484L135.422 8.93828H144.14L137.087 14.0629L139.781 22.3547L132.728 17.2301L125.674 22.3547L128.368 14.0629L121.315 8.93828H130.033L132.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M156.728 0.646484L159.422 8.93828H168.14L161.087 14.0629L163.781 22.3547L156.728 17.2301L149.674 22.3547L152.368 14.0629L145.315 8.93828H154.033L156.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M180.728 0.646484L183.422 8.93828H192.14L185.087 14.0629L187.781 22.3547L180.728 17.2301L173.674 22.3547L176.368 14.0629L169.315 8.93828H178.033L180.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M204.728 0.646484L207.422 8.93828H216.14L209.087 14.0629L211.781 22.3547L204.728 17.2301L197.674 22.3547L200.368 14.0629L193.315 8.93828H202.033L204.728 0.646484Z" fill="#D9D9D9"/>
+                                <path d="M228.728 0.646484L231.422 8.93828H240.14L233.087 14.0629L235.781 22.3547L228.728 17.2301L221.674 22.3547L224.368 14.0629L217.315 8.93828H226.033L228.728 0.646484Z" fill="#D9D9D9"/>
+                                </svg>
+                        </div>
+                    </div>
+
+                </div>
+                <p class="user-rating-comment">It's been a long journey for me.From the feeling that I really don't like Scythe and I don't like area control - to owning my own copy and enjoying that fact. From aversion to the "kickstarterness" of Scythe to acknowledging its undeniable merits.It was a winding road through dense swamps, but I made it. Now I don't fully understand where my initial resistance came from. Perhaps from three lies that I initially believed and would like to dispel today. So, without further ado, here are three myths about Scythe - for those who are still hesitant!</p>
+                <p class="read-more">Read more >></p>
+            </div>
+            <div class="review-item">
+                <img src="./assets/images/witcher 1.png">
+                <h4>The Witcher: Old world</h4>
+                <div class="review-user-rating">
+                    <img class="user-pic" src="./assets/images/user-pics/eve-geek.png">
+                    <div class="user-rating-details">
+                        <h5>Eve Geek</h5>
+                        <div class="star-rating">
+                            <h3>10</h3>
+                            <svg width="241" height="25" viewBox="0 0 241 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.7276 0.646484L15.4218 8.93828H24.1403L17.0869 14.0629L19.781 22.3547L12.7276 17.2301L5.67418 22.3547L8.36834 14.0629L1.31492 8.93828H10.0334L12.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M36.7276 0.646484L39.4218 8.93828H48.1403L41.0869 14.0629L43.781 22.3547L36.7276 17.2301L29.6742 22.3547L32.3683 14.0629L25.3149 8.93828H34.0334L36.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M60.7276 0.646484L63.4218 8.93828H72.1403L65.0869 14.0629L67.781 22.3547L60.7276 17.2301L53.6742 22.3547L56.3683 14.0629L49.3149 8.93828H58.0334L60.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M84.7276 0.646484L87.4218 8.93828H96.1403L89.0869 14.0629L91.781 22.3547L84.7276 17.2301L77.6742 22.3547L80.3683 14.0629L73.3149 8.93828H82.0334L84.7276 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M108.728 0.646484L111.422 8.93828H120.14L113.087 14.0629L115.781 22.3547L108.728 17.2301L101.674 22.3547L104.368 14.0629L97.3149 8.93828H106.033L108.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M132.728 0.646484L135.422 8.93828H144.14L137.087 14.0629L139.781 22.3547L132.728 17.2301L125.674 22.3547L128.368 14.0629L121.315 8.93828H130.033L132.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M156.728 0.646484L159.422 8.93828H168.14L161.087 14.0629L163.781 22.3547L156.728 17.2301L149.674 22.3547L152.368 14.0629L145.315 8.93828H154.033L156.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M180.728 0.646484L183.422 8.93828H192.14L185.087 14.0629L187.781 22.3547L180.728 17.2301L173.674 22.3547L176.368 14.0629L169.315 8.93828H178.033L180.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M204.728 0.646484L207.422 8.93828H216.14L209.087 14.0629L211.781 22.3547L204.728 17.2301L197.674 22.3547L200.368 14.0629L193.315 8.93828H202.033L204.728 0.646484Z" fill="#DA9B1D"/>
+                                <path d="M228.728 0.646484L231.422 8.93828H240.14L233.087 14.0629L235.781 22.3547L228.728 17.2301L221.674 22.3547L224.368 14.0629L217.315 8.93828H226.033L228.728 0.646484Z" fill="#DA9B1D"/>
+                                </svg>
+                        </div>
+                    </div>
+                    
+                </div>
+                <p class="user-rating-comment">In this game I liked the fact that you don't have to wait so long and build your character before dealing your first hit, fighting the monster for the first time. A few rounds and you can already try to face the first monsters, I like it very much since the game has a tension and extiement from the very first turn. Remember about the balance between exploring the world and fighting. If you ignore the fight, you probably won't win. On the other hand, if you ignore the story aspect completely, the storyline of the game, then you probably won't be able to develop your character enough to win fights with monsters. So you probably won't win as well.</p>
+                    <p class="read-more">Read more >></p>
+            </div>
+        </div>
+        <button>See more reviews</button>
+    </section>
+    <section class="releases">
+        <h2>New and upcoming releases</h2>
+        <hr \>
+        <div class="release-list">
+            <div class="release-item">
+                <p class="release-date">June 2023</p>
+                <img src="./assets/images/box-pics/nimalia 1.png">
+                <h5>Nimalia</h5>
+            </div>
+            <div class="release-item">
+                <p class="release-date">May 2023</p>
+                <img src="./assets/images/box-pics/tuned 1.png">
+                <h5>Tuned</h5>
+            </div>
+            <div class="release-item">
+                <p class="release-date">Released April 2023</p>
+                <img src="./assets/images/box-pics/wreckland run 1.png">
+                <h5>Wreckland Run</h5>
+            </div>
+            <div class="release-item">
+                <p class="release-date">Released April 2023</p>
+                <img src="./assets/images/box-pics/its a wonderful 1.png">
+                <h5>It’s a wonderful world: Leisure & Decandence</h5>
+            </div>
+            <div class="release-item">
+                <p class="release-date">Released April 2023</p>
+                <img src="./assets/images/box-pics/yucatan 1.png">
+                <h5>Yucatan</h5>
+            </div>
+        </div>
+        <button>See more releases</button>
+    </section>
+    <section class="community">
+        <h2>community</h2>
+        <div class="navigation">
+            <h4 class="nav-item clicked">Hot threads</h4>
+            <h4 class="nav-item">Hot videos</h4>
+            <h4 class="nav-item">Hot geeklists</h4>
+        </div>
+        <hr \>
+        <div class="community-list">
+            <div class="community-item">
+                <img class="user-pic" src="./assets/images/user-pics/kendra.png">
+                <div class="community-item-text">
+                    <h4>Happy 23rd anniversary to BGG!</h4>
+                    <div class="post-details">
+                        <h5 class="user-name">Kendra</h5>
+                        <h5 class="category">News</h5>
+                        <h5 class="date-posted">a week ago</h5>
+                    </div>
+                    <p class="post-preview">
+                        In January 2000, BoardGameGeek, was launched with the mission to create the definitive source for board game information. 23 years ago, I never could have imagined that this website would grow into the amazing community that it is today.This community is one of the most passionate and dedicated groups of people that are always willing to help others, share their knowledge, and make new friends. They are a testament to the power of a shared passion.
+                    </p>
+                    <div class="engagement-counter">
+                        <p class="likes">584</p>
+                        <p class="comments">123</p>
+                    </div>
+                </div>
+            </div>
+            <div class="community-item">
+                <img class="user-pic" src="./assets/images/user-pics/scott.png">
+                <div class="community-item-text">
+                    <h4>Download our new BGG iPhone and iPad app!</h4>
+                    <div class="post-details">
+                        <h5 class="user-name">Scott</h5>
+                        <h5 class="category">News</h5>
+                        <h5 class="date-posted">3 days ago</h5>
+                    </div>
+                    <p class="post-preview">
+                        I'm pleased to announce that the official BoardGameGeek App has passed approval on the App Store for iPhone & iPad. Many thanks to AppsByEerko for the development over the past year!                    </p>
+                    <div class="engagement-counter">
+                        <p class="likes">385</p>
+                        <p class="comments">65</p>
+                    </div>
+                </div>
+            </div>
+            <div class="community-item">
+                <img class="user-pic" src="./assets/images/user-pics/nick.png">
+                <div class="community-item-text">
+                    <h4>Board game table or other solutions...</h4>
+                    <div class="post-details">
+                        <h5 class="user-name">Nick</h5>
+                        <h5 class="category">General Gaming</h5>
+                        <h5 class="date-posted">a week ago</h5>
+                    </div>
+                        <p class="post-preview">
+                        Hi folksI'm stuck. I'm hoping the power of the internet and board game enthusiasts can help. Let me know if this should be asked somewhere else.I live in New Zealand. Most things cool are hard or very expensive to get here, and that includes any decent board game table option. If you want one, you basically have to have it made, or make it yourself.The thing is? I have some very specific requirements I need to fullfill and I can't seem to nail them all.
+                        </p>
+                        <div class="engagement-counter">
+                        <p class="likes">114</p>
+                        <p class="comments">53</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button>See more threads</button>
+    </section>
+    <footer>
+        <section class="footer-links">
+            <img src="./assets/images/logo-footer.svg">
+            <div class="links-section">
+                <h5>COMPANY</h5>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Advertise</a>
+                <a href="#">Support BGG</a>
+            </div>
+            <div class="links-section">
+                <h5>POLICIES</h5>
+                <a href="#">Community Guidelines</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Manage Cookies</a>
+            </div>
+            <div class="links-section">
+                <h5>CONNECT</h5>
+                <div class="social-links">
+                    <a href="#"><img src="./assets/images/icons/fb.svg"></a>
+                    <a href="#"><img src="./assets/images/icons/twitter.svg"></a>
+                    <a href="#"><img src="./assets/images/icons/insta.svg"></a>
+                    <a href="#"><img src="./assets/images/icons/youtube.svg"></a>
+                    <a href="#"><img src="./assets/images/icons/twitch.svg"></a>
+                    <a href="#"><img src="./assets/images/icons/discord.svg"></a>
+                </div>
+            </div>
+        </section>
+        <section class="copywright">
+            <img src="./assets/images/logo.svg"> 
+            <p>2023 All rights reserved</p>
+        </section>
+    </footer>
+</body>
+<script src="./assets/script/script.js"></script>
+</html>
